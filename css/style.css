@@ -1,0 +1,92 @@
+.sl_call_widget_div {
+    position: relative;
+    width: 100px;
+}
+.talk-div {
+    display: block;
+    width: 250px;
+    position: absolute;
+    bottom: 140px;
+    right: 40px;
+    height: auto;
+    padding: 20px;
+    z-index: 9999999;
+	background-color: #87b3ff;
+}
+.relative-pos {
+    bottom: 100px !important;
+    right: 0px !important;
+    left: 0px !important;
+}
+.round{
+    border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+.tri-right.btm-left:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 0px;
+    top: auto;
+	bottom: -20px;
+	border: 22px solid;
+	border-color: transparent transparent transparent #87b3ff;
+}
+.talktext{
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+}
+.talktext p{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+.call_btn {
+    float: left;
+    outline: none;
+    font-size:12px; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: lightgoldenrodyellow;
+}
+.pull-right {
+    float: right !important;
+}
+.sl_hide {
+    display: none;
+}
+.sl-form-control input {
+    width: 100%;
+    border-radius: 0px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    outline: none;
+}
+.sl-control-label {
+    color: white;
+    display: block;
+}
+.sl_phone_btn {
+    z-index: 999999; 
+    position: fixed; 
+    display: block;
+}
+.sl_cwc_msg_danger {
+    color: #a94442 !important;
+}
+.sl_cwc_msg_success {
+    color: #28a745 !important;
+}

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Call Widget Demo</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- <div class="sl_call_widget_div"></div>   -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center" style="margin-top: 100px;">
+                    <h3>This is demo for fixed widget at bottom right corner.</h3>
+                    <button class="btn btn-default" style="margin-top: 30px;" id="other_demo">View Other Demo</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='js/call_widget.js'></script>
+    <script>
+        $(document).ready( () => {
+            $('#other_demo').click( () => {
+                window.location.href = "./other_view.htm";
+            });
+        })
+    </script>
+</html>
